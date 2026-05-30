@@ -9,6 +9,15 @@ const validarApiKey = require('./middlewares/apiKey');
 app.use(express.json());
 
 app.use(logger);
+
+// Ruta pública
+app.get('/', (req, res) => {
+  res.json({
+    mensaje: 'API de películas funcionando correctamente'
+  });
+});
+
+// A partir de aquí se exige API Key
 app.use(validarApiKey);
 
 app.use('/peliculas', peliculasRoutes);
