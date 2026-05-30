@@ -19,10 +19,10 @@
     "url": "https://github.com/EdgarEO/api-peliculas/issues"
   },
   "homepage": "https://github.com/EdgarEO/api-peliculas#readme",
- "dependencies": {
-  "express": "^5.2.1",
-  "sequelize": "^6.37.8",
-  "sqlite": "^5.1.1",
-  "sqlite3": "^6.0.1"
-}
+  "dependencies": {
+    "express": "^5.2.1",
+    "sequelize": "^6.37.8",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
 }
